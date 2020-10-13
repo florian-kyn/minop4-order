@@ -1,0 +1,18 @@
+{
+  "TimeBomb": {
+    "timeBomb": {
+      "messageSuccess": [
+        "The time bomb has been successfully set!"
+      ],
+      "messageError": [
+        "You must specify the name of the time bomb!",
+        "There is already a time bomb with this name in the database.",
+        "You must specify an email.",
+        "The specified email is not valid.",
+        "You must specify a word to email EMAIL.",
+        "You must specify a duration in hours.",
+        "The specified duration must be over 0."
+      ]
+    }
+  }
+}

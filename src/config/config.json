@@ -1,0 +1,14 @@
+{
+    "database": {
+        "username": "discord-client",
+        "database": "minop4",
+        "password": "discordclient",
+        "host": "localhost",
+        "port": ""
+    },
+
+    "discord": {
+        "prefix": "?",
+        "token": "NzU5NDAyMDU3NzE4OTU2MDMz.X28-Rw.tuzAIGjoMtiOnTdmNVLWUVx3qhY"
+    }
+}

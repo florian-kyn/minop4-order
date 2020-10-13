@@ -1,0 +1,23 @@
+{
+  "name": "minop4-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChigusaKayano/minop4-order.git"
+  },
+  "author": "Florian Lepage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChigusaKayano/minop4-order/issues"
+  },
+  "homepage": "https://github.com/ChigusaKayano/minop4-order#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "mysql2": "^2.2.5"
+  }
+}
