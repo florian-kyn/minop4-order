@@ -7,6 +7,12 @@
         "port": ""
     },
 
+    "email": {
+        "service": "gmail",
+        "user": "mistersnakou7145@gmail.com",
+        "password": "H54YNqQF8Lfx"
+    },
+
     "discord": {
         "prefix": "?",
         "token": "NzU5NDAyMDU3NzE4OTU2MDMz.X28-Rw.tuzAIGjoMtiOnTdmNVLWUVx3qhY"

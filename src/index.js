@@ -14,6 +14,12 @@ const language = JSON.parse(fs.readFileSync("./language/en-US.json"));
 // Database imports (Located to ./database/)
 const {Database} = require("./database/Database.js");
 
+//Events Imports
+const {TimedEvent} = require("./event/TimedEvent.js");
+
+//Events Execute:
+new TimedEvent(client, config, language).on();
+
 // Commands imports (Located to ./action/)
 const {TimeBomb} = require("./action/TimeBomb.js");
 

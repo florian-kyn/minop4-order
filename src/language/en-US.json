@@ -2,7 +2,8 @@
   "TimeBomb": {
     "timeBomb": {
       "messageSuccess": [
-        "The time bomb has been successfully set!"
+        "The time bomb has been successfully set!",
+        "You added 1 extra week for the time bomb NAME. Good luck!"
       ],
       "messageError": [
         "You must specify the name of the time bomb!",
@@ -11,8 +12,24 @@
         "The specified email is not valid.",
         "You must specify a word to email EMAIL.",
         "You must specify a duration in hours.",
-        "The specified duration must be over 0."
+        "The specified duration must be over 0.",
+        "Only administrators can use this command.",
+        "You do not have the role 'BluePill', you cannot use this command.",
+        "There is no time bombs with this name.",
+        "You already added extra time to this time bomb."
       ]
     }
+  },
+  "redButton": {
+    "messageSuccess": [
+      "You successfully added TIME hours to the time bomb NAME."
+    ],
+    "messageError": [
+      "You are not administrator, you can't use this command",
+      "You must specify the name of the time bomb.",
+      "There is no time bomb with this name.",
+      "You must specify a time in hours.",
+      "The time specified must me higher than 0."
+    ]
   }
 }

@@ -32,6 +32,9 @@ class Database {
         this.connection().query(`CREATE TABLE IF NOT EXISTS staffMembers (userId VARCHAR(30), authorId VARCHAR(30), promotedAt VARCHAR(30))`, (err) => {
             if (err) throw err;
         });
+        this.connection().query(`CREATE TABLE IF NOT EXISTS bluePillIncrease (userId VARCHAR(30), bombId VARCHAR(30))`, (err) => {
+            if (err) throw err;
+        });
         this.connection().query(`CREATE TABLE IF NOT EXISTS timeBombs (name VARCHAR(255), email VARCHAR(255), word VARCHAR(255), duration VARCHAR(255))`, (err) => {
             if (err) throw err;
         });
